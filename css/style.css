@@ -266,3 +266,50 @@ button:hover {
     transform: scale(1.03);
     opacity: 0.9;
 }
+
+/* Top Bar already موجود لو حطيت السابق */
+
+/* Contact Box */
+.contact-box {
+    max-width: 700px;
+    text-align: center;
+}
+
+/* Contact Text */
+.contact-box p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Form spacing */
+.contact-box form {
+    margin-top: 15px;
+}
+
+/* Inputs */
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Button */
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
